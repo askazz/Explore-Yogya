@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Rasa';
+    src: url('font/static/Rasa-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Rasa', arial, helvetica, sans-serif;
+}
+
+/* section{
+    min-height: 420px;
+} */
+
+.navbar{
+    background: rgba(0, 0, 0, 0);
+    transition: .5s ease;
+}
+
+.navbar.navbar-muncul, .artikel .card{
+    background-color: #CBA28C;
+}
+
+.jumbotron{
+    height: 800px;
+    background-image: url('img/background.jpg');
+    /* untuk membuat fix bg . contoh dari parallax*/
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: .86;
+}
+
+.jumbotron .container{
+    padding-top: 130px;
+}
+
+.blur{
+    height: 500px;
+    background-image: url('img/blur.png');
+    position: relative;
+    top: -500px;
+}
+
+.about{
+    margin-top: -500px;
+}
+
+hr{
+    width: 250px;
+    border-top: 2px solid black;
+}
+
+.aksen{
+    height: 310px;
+    background-image: url('img/aksen.png');
+    margin-top: -5px;
+}
+
+.aksen2{
+    transform: rotate(180deg);
+}
+
+.card, .card img, .artikel .container{
+    border-radius: 25px;
+}
+
+.about, .destinasi .card, .artikel .container, footer{
+    background-color: #FCEEE7;
+}
+
+.artikel .container{
+    width: 820px;
+    margin: auto;
+}
+
+footer{
+    margin-top: -5px;
+    font-size: 13px;
+}
+
+footer .sosmed i{
+    font-size: 28px;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+
